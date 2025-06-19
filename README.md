@@ -34,11 +34,11 @@ var $Cron : cs.Cron.Cron
 $Cron:=cs.Cron.Cron.new()
 ```
 
+see [Import Cron](https://github.com/miyako/Cron/blob/main/Cron/Documentation/Methods/Import%20Cron.md) for details.
+
 ## Description (legacy)
 
 After installation, one method is added to your 4D project, that can be used to import Cron component's class store.
-
-[Import Cron](https://github.com/miyako/Cron/blob/main/Cron/Documentation/Methods/Import%20Cron.md)
 
 After you import the class store, you can instantiate Cron and Daemon classes.
 
@@ -46,6 +46,8 @@ After you import the class store, you can instantiate Cron and Daemon classes.
 $cs:=Import Cron
 $Cron:=$cs.Cron.new()
 ```
+
+see [Import Cron](https://github.com/miyako/Cron/blob/main/Cron/Documentation/Methods/Import%20Cron.md) for details.
 
 ## License
 

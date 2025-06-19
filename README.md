@@ -9,6 +9,19 @@
 
 4D Component which includes methods to manage daemons.
 
+## dependencies.json
+
+ ```json
+{
+	"dependencies": {
+		"rclone": {
+			"github": "miyako/Cron",
+			"version": "latest"
+		}
+	}
+}
+```
+
 ## Description
 
 By Installing this component into your 4D project, one method is added to your 4D project, that can be used to import Cron component's class store.

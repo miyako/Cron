@@ -29,7 +29,7 @@ This is a 4D component, so you should build this source as 4D component and plac
 
 ## License
 
-Please refer to "LICENSE" file.
+Please refer to ["LICENSE"](LICENSE) file.
 
 ## Release Note
 

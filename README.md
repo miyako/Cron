@@ -46,7 +46,7 @@ $cron:=cs.Cron.Cron.new()
 // Register daemon object under the cron's management
 $cron.add($daemon)
 
-// Set cron management interval to 10 secs.
+// Set cron management interval to 2 secs.
 $cron.setInterval(2)
 
 // then start daemon process(es)

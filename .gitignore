@@ -1,1 +1,3 @@
 Cron/userPreferences.*
+Cron/Data/*
+Cron/Project/DerivedData/*

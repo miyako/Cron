@@ -38,7 +38,7 @@ $Cron:=cs.Cron.Cron.new()
 
 After installation, one method is added to your 4D project, that can be used to import Cron component's class store.
 
-[Import Cron](Cron/blob/main/Cron/Documentation/Methods/Import%20Cron.md)
+[Import Cron](https://github.com/miyako/Cron/blob/main/Cron/Documentation/Methods/Import%20Cron.md)
 
 After you import the class store, you can instantiate Cron and Daemon classes.
 

@@ -1,5 +1,6 @@
-﻿{
+{
 	"(Daemon)": {},
+	"(Test)": {},
 	"Cron": {
 		"methods": [
 			"DaemonExecutor",
@@ -11,12 +12,6 @@
 			"Daemon"
 		]
 	},
-	"Test": {
-		"methods": [
-			"test_CalcNextLaunchTime",
-			"test_DateCalc"
-		]
-	},
 	"Utility": {
 		"methods": [
 			"CalcNextLaunchTime",
@@ -25,7 +20,8 @@
 	},
 	"trash": {
 		"groups": [
-			"(Daemon)"
+			"(Daemon)",
+			"(Test)"
 		]
 	}
 }

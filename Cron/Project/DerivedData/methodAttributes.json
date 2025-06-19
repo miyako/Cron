@@ -1,0 +1,40 @@
+{
+	"methods": {
+		"DaemonManager": {
+			"timeStamp": "2025-06-19T00:26:13Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"CalcNextLaunchTime": {
+			"timeStamp": "2025-06-19T00:26:13Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"Import Cron": {
+			"timeStamp": "2025-06-19T00:26:13Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true,
+				"preemptive": "capable"
+			}
+		},
+		"GetLastDayNumber": {
+			"timeStamp": "2025-06-19T00:26:13Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"DaemonExecutor": {
+			"timeStamp": "2025-06-19T00:26:13Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		}
+	}
+}

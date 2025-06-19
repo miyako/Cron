@@ -34,7 +34,27 @@ var $Cron : cs.Cron.Cron
 $Cron:=cs.Cron.Cron.new()
 ```
 
-see [Import Cron](https://github.com/miyako/Cron/blob/main/Cron/Documentation/Methods/Import%20Cron.md) for details.
+### Example
+
+```4d
+// Creates Daemon instance object
+$daemon:=cs.Cron.Daemon.new("DaemonNamed"; Formula(DaemonMethod); "every 3 seconds"; {message: "test"})
+
+// Creates Cron instance object
+$cron:=cs.Cron.Cron.new()
+
+// Register daemon object under the cron's management
+$cron.add($daemon)
+
+// Set cron management interval to 10 secs.
+$cron.setInterval(2)
+
+// then start daemon process(es)
+$cron.start()
+
+// when you want to stop daemon process(es)
+//$cron.stop()
+```
 
 ## Description (legacy)
 

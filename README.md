@@ -22,17 +22,25 @@
 }
 ```
 
-## Description
+## Description 
 
-By Installing this component into your 4D project, one method is added to your 4D project, that can be used to import Cron component's class store.
+After installation, the following classes become available in the  `cs.Cron` namespace.
+
+[Cron Class](Cron/Documentation/Classes/Cron.md)
+
+[Daemon Class](Cron/Documentation/Classes/Daemon.md)
+
+## Description (legacy)
+
+After installation, one method is added to your 4D project, that can be used to import Cron component's class store.
 
 [Import Cron](Cron/blob/main/Cron/Documentation/Methods/Import%20Cron.md)
 
 After you import the class store, you can instantiate Cron and Daemon classes.
 
-[Cron Class](Cron/Documentation/Classes/Cron.md)
-
-[Daemon Class](Cron/Documentation/Classes/Daemon.md)
+```4d
+$cs:=Import Cron
+```
 
 ## License
 

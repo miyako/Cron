@@ -135,7 +135,7 @@ Function start()->$this_o : cs:C1710.Cron
 		
 	End use 
 	
-	CALL WORKER:C1389("crond (Cron component)"; "DaemonManager")
+	CALL WORKER:C1389("crond (Cron component)"; Formula:C1597(DaemonManager))
 	
 	$this_o:=This:C1470
 	

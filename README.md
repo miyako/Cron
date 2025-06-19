@@ -14,7 +14,7 @@
  ```json
 {
 	"dependencies": {
-		"rclone": {
+		"Cron": {
 			"github": "miyako/Cron",
 			"version": "latest"
 		}

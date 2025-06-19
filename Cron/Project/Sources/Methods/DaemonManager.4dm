@@ -17,7 +17,7 @@ var $quit_b : Boolean
 var $next_t; $now_t : Text
 
 $quit_b:=False:C215
-$executorMethod_t:="DaemonExecutor"
+$executorMethod_t:=Formula:C1597(DaemonExecutor).source
 
 Repeat 
 	

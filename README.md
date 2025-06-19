@@ -26,9 +26,13 @@
 
 After installation, the following classes become available in the  `cs.Cron` namespace.
 
-[Cron Class](Cron/Documentation/Classes/Cron.md)
+- [Cron Class](Cron/Documentation/Classes/Cron.md)
+- [Daemon Class](Cron/Documentation/Classes/Daemon.md)
 
-[Daemon Class](Cron/Documentation/Classes/Daemon.md)
+```4d
+var $Cron : cs.Cron.Cron
+$Cron:=cs.Cron.Cron.new()
+```
 
 ## Description (legacy)
 
@@ -40,6 +44,7 @@ After you import the class store, you can instantiate Cron and Daemon classes.
 
 ```4d
 $cs:=Import Cron
+$Cron:=$cs.Cron.new()
 ```
 
 ## License
